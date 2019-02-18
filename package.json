@@ -1,0 +1,32 @@
+{
+  "name": "hxf-api",
+  "version": "1.0.0",
+  "description": "瑞幸咖啡api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "dev": "node-dev ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wodehuang/hxf-api.git"
+  },
+  "keywords": [
+    "瑞幸咖啡"
+  ],
+  "author": "code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wodehuang/hxf-api/issues"
+  },
+  "homepage": "https://github.com/wodehuang/hxf-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0"
+  }
+}
